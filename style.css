@@ -1,0 +1,78 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  background-image: url(file:///Users/user/Becode2022/guenther-wireframe-01/images/banner-bg.svg);
+height: 100vh;
+width: 100vw;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 10% 0 10%;
+  width: 100vw; 
+}
+
+.nav-logo {
+  background-image: url("file:///Users/user/Becode2022/guenther-wireframe-01/images/logo.svg");
+  width: 100px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  }
+
+.nav-menu {
+display: flex;
+list-style: none;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  gap: 10px;
+  gap: 10px 20px; /* row-gap column gap */
+  row-gap: 10px;
+  column-gap: 20px;
+
+}
+
+.item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn-top {
+ background: rgb(253,128,110);
+background: linear-gradient(90deg, rgba(253,128,110,1) 34%, rgba(253,112,147,1) 65%); 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+
+.hamburger {
+    display: none;
+}
+
+@media screen and (max-width:570px)
+
+{
+  .hamburger {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+
